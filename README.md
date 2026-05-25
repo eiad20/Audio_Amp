@@ -1,7 +1,7 @@
 # 3-Stage Audio Amplifier with Class AB Output
 
 ## Overview
-This repository contains the schematic, simulation files, and custom PCB layout for a 3-stage audio amplifier with volume control. The circuit is designed to take a weak audio signal (such as the output from a smartphone or microphone) and amplify it sufficiently to drive an 8Ω speaker with clear, audible sound. This project was developed as part of the ECE211s Electronics course at Ain Shams University.
+This repository contains the schematic, simulation files, and custom PCB layout for a 3-stage audio amplifier with volume control. The circuit is designed to take a weak audio signal (such as the output from a smartphone or microphone) and amplify it sufficiently to drive an 8Ω speaker with clear, audible sound. This project was developed as part of the ECE211s Electronic Circuits I course at Ain Shams University.
 
 The design was fully simulated in Proteus 8, verified using virtual oscilloscopes, and fabricated on a custom PCB.
 
@@ -34,10 +34,9 @@ The amplifier is built using three primary functional stages to provide both vol
 | Indicator LED | Green LED | 1 | Power indicator |
 
 ## Repository Contents
-* `Proteus_Simulation/`: Contains the `.pdsprj` source files and virtual oscilloscope setups.
-* `PCB_Files/`: Contains the custom PCB layout files and Gerbers for fabrication.
-* `Docs/`: Contains detailed hand analysis for the AC voltage gain, maximum output power, and cut-off frequencies.
-* `Images/`: Circuit schematics, simulation waveforms (input vs. amplified output), and photos of the physical PCB.
+* `Audio_amp.pdsprj`: The Proteus 8 simulation source file containing the full circuit schematic and virtual oscilloscope setup.
+* `Audio_Amp.png`: High-resolution export of the Proteus circuit schematic.
+* `Audio_Amp_PCB.png`: Snapshot of the custom PCB layout designed for the amplifier.
 
 ## Testing & Validation
 The circuit was tested using a smartphone frequency generator application. The input signal and the amplified output were measured using a digital multimeter and an oscilloscope to confirm the target voltage gain of 100 V/V. The physical circuit successfully drove an 8Ω speaker with clear audio and minimal distortion.
