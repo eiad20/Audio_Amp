@@ -1,7 +1,7 @@
 # 3-Stage Audio Amplifier with Class AB Output
 
 ## Overview
-This repository contains the schematic, simulation files, and custom PCB layout for a 3-stage audio amplifier with volume control. The circuit is designed to take a weak audio signal (such as the output from a smartphone or microphone) and amplify it sufficiently to drive an 8Ω speaker with clear, audible sound. This project was developed as part of the ECE211s Electronic Circuits I course at Ain Shams University.
+This repository contains the schematic, simulation files, and custom PCB layout for a 3-stage audio amplifier with volume control. The circuit is designed to take a weak audio signal (such as the output from a smartphone or microphone) and amplify it sufficiently to drive an 8Ω speaker with clear, audible sound. This project was developed as part of the ECE211s Electronics course at Ain Shams University.
 
 The design was fully simulated in Proteus 8, verified using virtual oscilloscopes, and fabricated on a custom PCB.
 
